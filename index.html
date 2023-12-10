@@ -1,10 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block fv">
+            <div class="contact-info__block fh">
+              <div class="contact-info__details fv">
+                <h1 class="contact-info__header">Artem Lymarenko</h1>
+                <h3 class="contact-info__sub-header">
+                  Trainee FullStack Developer
+                </h3>
+              </div>
+              <img
+                class="contact-info__avatar"
+                src="assets/avatar.jpg"
+                alt="Avatar"
+              />
+            </div>
+            <div class="contact_info_container">
+              <div class="contact-info__social fh">
+                <a
+                  href="https://www.linkedin.com/in/artem-lymarenko-a5152229b/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      width="20"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                      />
+                    </svg>
+                  </div>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      width="20"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Cherkassy, Ukraine</span>
+                </a>
+                <a
+                  href="tel:380637471898"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="18"
+                      width="18"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                  </div>
+                  <span>+380-63-747-18-98</span>
+                </a>
+                <a
+                  href="mailto:a.lymarenko.job@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      viewBox="0 0 24 24"
+                      id="gmail"
+                    >
+                      <path
+                        d="M1.5,21H3V7.387l9,6.463l9-6.463V21h1.5c0.85,0,1.5-0.65,1.5-1.5v-15c0-0.425-0.161-0.8-0.431-1.068C23.3,3.162,22.925,3,22.5,3H22l-10,7.25L2,3H1.5C1.076,3,0.7,3.16,0.431,3.432C0.162,3.7,0,4.075,0,4.5v15C0,20.35,0.649,21,1.5,21z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>a.lymarenko.job@gmail.com</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <h3 class="resume__header">About me</h3>
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                    24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                    26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                    64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                    32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="intro__content fv">
+                <p class="intro_text">
+                  Hello, I'm Artem I'm a confident developer dedicated to
+                  advancing technology and creating exceptional solutions. My
+                  drive for improvement and creativity underline my passion for
+                  programming.
+                </p>
+                <p class="intro_text">
+                  My goal is to give something to the world that exceed
+                  expectations. I strongly believe that working together and
+                  sharing ideas helps our community grow and become better and
+                  better every day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="resume__header">Skills</h3>
+              <div class="skills__content fh">
+                <div class="skills__card">
+                  <p>Hard Skills</p>
+                  <ul class="qualities-list">
+                    <li>HTML</li>
+                    <li>CSS, SCSS</li>
+                    <li>JavaScript, TypeScript</li>
+                    <li>React, Redux</li>
+                    <li>Figma</li>
+                    <li>Express.js, Nest</li>
+                    <li>PostgreSQL</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
+                <div class="skills__card">
+                  <p>Soft Skills</p>
+                  <ul class="qualities-list">
+                    <li>Team player</li>
+                    <li>Adaptability</li>
+                    <li>Creativivity</li>
+                    <li>Self Organized</li>
+                    <li>Ready to changes</li>
+                    <li>Analytical skills</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="resume__header">My road</h3>
+                <div class="experiences__timeline">
+                  <ul class="timeline-list fv">
+                    <li>
+                      <p>2021 - autumn</p>
+                      <p>Learned what programming is.</p>
+                    </li>
+                    <li>
+                      <p>2021 - spring</p>
+                      <p>
+                        Wrote a coursework on algorithms for working with
+                        BigInt-type numbers in C++.
+                      </p>
+                    </li>
+                    <li>
+                      <p>2021-2022</p>
+                      <p>
+                        Explored languages such as Java and C#. Completed a
+                        couple of mini-projects to grasp the fundamentals.
+                      </p>
+                    </li>
+                    <li>
+                      <p>2023-summer</p>
+                      <p>
+                        Learned about JavaScript, started taking courses to
+                        understand the basics, and wrote a mini-backend app
+                        using Express.js. Became interested in frontend
+                        development and began studying it.
+                      </p>
+                    </li>
+                    <li>
+                      <p>2023-winter</p>
+                      <p>
+                        Working on my e-commerce shop written in React and Nest.
+                        Advanced to the second stage of the selection process
+                        for the best academy in the world &#x1F609;
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2021</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Institute for Applied System Analysis
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      National Technical University of Ukraine “Igor Sikorsky
+                      Kyiv Polytechnic Institute”
+                    </p>
+                  </div>
+                </div>
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    Ukrainian - Native
+                  </p>
+                  <p class="additional-info__languages-item">
+                    English - Intermediate
+                  </p>
+                </div>
+                <div class="additional-info__hobbies">
+                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <p class="additional-info__hobbies-item">Basketball</p>
+                  <p class="additional-info__hobbies-item">Running</p>
+                  <p class="additional-info__hobbies-item">Speedcubing</p>
+                  <p class="additional-info__hobbies-item">Chess</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
