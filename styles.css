@@ -17,7 +17,7 @@ body {
 
   --letter-spacing: 1.5px;
   letter-spacing: var(--letter-spacing);
-  background: #006241;
+  background: #4dc19a;
 }
 
 .container {
@@ -62,10 +62,6 @@ body {
 
   .contact_info_container {
     align-items: center;
-  }
-
-  .contact-info__block:not(:last-child) {
-    margin-bottom: 20px;
   }
 
   .experiences {
@@ -209,38 +205,15 @@ body {
   gap: 10px;
 }
 
+.timeline-list > li {
+  margin-bottom: 5px;
+  padding: 3px;
+  border-bottom: 1px solid var(--block-background-color);
+}
+
 .timeline-list > li > p:first-child {
   font-size: 16px;
   font-weight: 600;
-}
-
-.experiences__header {
-  color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.experiences__company-project {
-  margin-left: 15px;
-  margin-bottom: 25px;
-}
-
-.experiences__company-project-role {
-  color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 15px;
-}
-
-.experiences__company-project-name {
-  color: var(--primary-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.experiences__company-project-responsibilities {
-  color: var(--secondary-text-color);
-  padding-left: 20px;
 }
 
 .additional-info {
@@ -249,41 +222,48 @@ body {
 
 .additional-info__education {
   margin-bottom: 20px;
+  background: var(--block-background-color);
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--durability-text-color);
+  text-align: left;
 }
 
 .additional-info__education-header {
-  color: var(--secondary-text-color);
-  text-align: left;
   margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
-  color: var(--durability-text-color);
-  text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
-  color: var(--primary-text-color);
-  text-align: left;
   margin-bottom: 10px;
-}
-
-.additional-info__education-university-name {
-  color: var(--secondary-text-color);
 }
 
 .additional-info__languages {
   margin-bottom: 20px;
+  background: var(--block-background-color);
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--durability-text-color);
+  text-align: left;
 }
 
 .additional-info__languages-header {
-  color: var(--secondary-text-color);
-  text-align: left;
   margin-bottom: 20px;
 }
 
-.additional-info__languages-item {
-  color: var(--secondary-text-color);
+.additional-info__hobbies {
+  margin-bottom: 20px;
+  background: var(--block-background-color);
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--durability-text-color);
+  text-align: left;
+}
+
+.additional-info__hobbies-header {
+  margin-bottom: 20px;
 }
