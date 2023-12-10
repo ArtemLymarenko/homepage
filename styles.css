@@ -8,12 +8,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 
-  --primary-text-color: #181820;
-  --secondary-text-color: #5c5c62;
-  --durability-text-color: #6a737d9c;
-  --icon-color: #6a737d;
-  --border-color: #ff9a0045;
-  --text-decoration-color: #ff9a00;
+  --primary-text-color: #fe5945;
+  --secondary-text-color: #161421;
+  --durability-text-color: #503d42;
+  --icon-color: #fe5945;
+  --border-color: #5cab7d;
+  --text-decoration-color: #fe5945;
+  --background-color: #f5fbef;
+
+  background: #33cccc;
+  animation: color 18s infinite linear;
+}
+
+@keyframes color {
+  0% {
+    background: #33cccc;
+  }
+  33% {
+    background: #5cab7d;
+  }
+  66% {
+    background: #fcca00;
+  }
+  100% {
+    background: #33cccc;
+  }
 }
 
 .container {
@@ -36,16 +55,18 @@ body {
 
 .resume {
   margin: 50px auto;
-  border: 1px solid #f5f5f5;
-  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  border: 3px solid var(--background-color);
   padding: 30px 0;
   max-width: 900px;
+
+  border-radius: 20px;
 }
 
 .resume__block {
-  border-bottom: 3px solid var(--border-color);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
+  padding: 30px;
+  margin-bottom: 10px;
+  background: var(--background-color);
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -74,12 +95,14 @@ body {
 
 .contact-info__header {
   color: var(--primary-text-color);
+  font-size: 42px;
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
   color: var(--secondary-text-color);
+  font-size: 24px;
 }
 
 .contact-info__block {
@@ -89,10 +112,11 @@ body {
 }
 
 .contact-info__details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+  gap: 10px;
+}
+
+.contact_info_container {
+  margin-top: 50px;
 }
 
 .contact-info__item {
@@ -101,10 +125,10 @@ body {
   display: flex;
   justify-content: start;
 }
-
+/* 
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
-}
+} */
 
 .contact-info__item-icon-wrapper {
   margin-right: 10px;
@@ -115,11 +139,6 @@ body {
 
 .contact-info__item-icon path {
   fill: var(--icon-color);
-}
-
-.contact-info__item-icon {
-  height: 1.1428rem;
-  vertical-align: text-bottom;
 }
 
 .contact-info__avatar {
